@@ -8,8 +8,8 @@ namespace OOPExam_BuySystem
 {
     class SeasonalProduct : Product
     {
-        DateTime SeasonStartDate { get; }
-        DateTime SeasonEndDate { get; }
+        public DateTime SeasonStartDate { get; }
+        public DateTime SeasonEndDate { get; }
 
         public SeasonalProduct(int id, string name, double price, bool active, bool canBeBoughtOnCredit, DateTime seasonStartDate, DateTime seasonEndDate) : base(id, name, price, active, canBeBoughtOnCredit)
         {
