@@ -115,7 +115,7 @@ namespace OOPExam_BuySystem
         }
 
         // TODO: Implement predicate
-        public void GetUsers()
+        public void GetUsers(Func<User, bool> predicate)
         {
 
         }
